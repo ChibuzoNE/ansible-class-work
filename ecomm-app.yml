@@ -11,7 +11,7 @@
 
   - name: Host code
     git:
-      repo: https://github.com/ChibuzoNE/ansible-class-work.git
+      repo: https://github.com/ChibuzoNE/Github_Finder.git
       dest: /var/www/html
 ...
 
