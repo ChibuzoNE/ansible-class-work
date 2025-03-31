@@ -7,6 +7,6 @@
   - name: update Static Page
     copy:
       src: static.html
-      dest: /var/www/html/static.html
+      dest: /var/www/html/stage.html
 ...
 
