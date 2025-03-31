@@ -1,0 +1,14 @@
+---
+- name: variables
+  hosts: g1
+  become: yes
+  vars:
+  myusername: chybuz
+
+  tasks:
+  - name: update dynamic Page
+    template:
+      src: dynamic.j2
+      dest: /var/www/html/dynamic.html
+...
+
