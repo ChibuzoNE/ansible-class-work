@@ -7,8 +7,11 @@
 </head>
 <body>
     <center>
-        <h1>The server operating systems:</h1><br>
-        <h1>The server Hostname:</h1>
+        <h1>The server operating systems:{{ ansible_distribution }}</h1>
+        <br>
+        <h1>The server Hostname:{{ ansible_hostname }}</h1>
+        <br>
+        <h1>The server operating systems:</h1>
     </center>
 </body>
 </html>
