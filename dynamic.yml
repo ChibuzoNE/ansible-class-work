@@ -4,7 +4,7 @@
   become: yes
 
   tasks:
-  - name: update Static Page
+  - name: update dynamic Page
     template:
       src: dynamic.j2
       dest: /var/www/html/dynamic.html
