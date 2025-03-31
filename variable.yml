@@ -1,9 +1,9 @@
 ---
-- name: variables
+- name: variables Demo
   hosts: g1
   become: yes
   vars:
-  myusername: chybuz
+    myusername: chybuz
 
   tasks:
   - name: update dynamic Page
