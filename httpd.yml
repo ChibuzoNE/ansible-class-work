@@ -1,9 +1,15 @@
 ---
 - name: Install httpd server
-  hosts: n2
+  hosts: all
   become: yes
 
   tasks:
+
+  - name: install git
+    yum:
+      name: git
+      state: present
+
   - name: install HTTPD
     yum:
       name: httpd
